@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'footer';
+    src: url('../../assets/hog/HogiraBlack-rglPL.otf') format('opentype');
+  }
+
+  @font-face {
+    font-family: 'footer2';
+    src: url('../../assets/pixeloid-font/PixeloidSans-mLxMm.ttf ') format('truetype');
+  }
+
+
+.footer{
+    background-color:#557153;
+}
+
+.footer h2{
+    font-family: 'footer',sans-serif;
+}
+.footer h5, p{
+    font-family:'footer2', sans-serif;
+}

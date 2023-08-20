@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'pixels';
+    src: url('../../assets/pixeloid-font/PixeloidSansBold-PKnYd.ttf') format('truetype');
+  }
+
+
+
+  @font-face {
+    font-family: 'gems';
+    src: url('../../assets/pixeloid-font/PixeloidSans-mLxMm.ttf') format('truetype');
+  }
+
+  
+  
+
+
+.bg{
+    background-color:#CCD6A6;
+    height:600px;
+    width: 100%;
+
+} 
+h1{
+font-family: 'pixels' , sans-serif;
+font-weight: bold;
+color:#557153;
+
+}
+
+h5{
+    font-family:'gems' , sans-serif;
+    color:#557153;
+}
+.bg2{
+    background-color: #EAEAEA;
+}
+
+#home {
+    padding-top:230px;
+}
+
+/* @media(min-width:800px and max-width:1200px) {}
+
+@media(min-width:650px and max-width:799px) {}
+
+@media(min-width:480px and max-width:649px) {} */
+
+@media(max-width:440px) {
+    
+#home {
+    padding-top: 170px
+}
+
+#home h1{
+    font-size:30px;
+}
+
+}
+
+@media(max-width:649px) {
+
+    #home {
+        padding-top: 150px;
+    }
+    
+    #home h1{
+        font-size:28px;
+    }
+}

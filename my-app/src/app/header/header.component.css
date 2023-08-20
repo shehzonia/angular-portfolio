@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'gems';
+    src: url('../../assets/pixeloid-font/PixeloidSans-mLxMm.ttf') format('truetype');
+  }
+
+.nb{
+    background-color:#557153;
+    width: 100%;
+}
+.nav-link{
+    cursor: pointer;
+    font-family: 'gems', sans-serif;
+
+}

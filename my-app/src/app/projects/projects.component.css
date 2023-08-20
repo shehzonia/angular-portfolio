@@ -1,0 +1,77 @@
+
+@font-face {
+    font-family: 'infini';
+    src: url('../../assets/hog/HogiraBlack-rglPL.otf') format('opentype');
+}
+  
+@font-face {
+    font-family: 'infini2';
+    src: url('../../assets/pixeloid-font/PixeloidMono-d94EV.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'outro';
+    src: url('../../assets/hog/HogiraBlack-rglPL.otf') format('opentype');
+  }
+
+.hproj{
+    color:#7D8F69;
+    font-family: 'infini',sans-serif;
+}
+.bg2{
+    background-color:#DAE2B6;
+}
+.card{
+    background-color:#CCD6A6;
+}
+.media{
+    background-color:#DCD6F7;
+
+}
+.btn{
+    background-color:#7D8F69;
+    border: 2px solid #A9AF7E;
+}
+
+.projs h5{
+    color:#557153;
+    font-family: 'outro', sans-serif;
+}
+
+.projs .btn{
+    font-family: 'outro' , sans-serif;
+    font-size: 13px;
+}
+
+
+#bt{
+    font-family: 'infini2', sans-serif;
+    font-size: 27px;
+    color:#557153;
+    border: none;
+    background-color: transparent;
+    border-bottom:2px solid #A9AF7E;
+}
+
+#bt:hover{
+   border: 2px solid #A9AF7E;
+   text-transform: uppercase;
+   color:#557153;
+   background-color:#E6E5A3;
+}
+
+@media(max-width:440px) {
+    
+    .card {
+        margin-top:25px;
+    }
+    
+    
+    }
+
+    @media(max-width:649px) {
+
+        .card {
+            margin-top:30px;
+        }
+    }

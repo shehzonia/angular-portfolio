@@ -1,0 +1,45 @@
+
+@font-face {
+    font-family: 'infini3';
+    src: url('../../assets/hog/HogiraBlack-rglPL.otf') format('opentype');
+  }
+
+  
+@font-face {
+    font-family: 'infini4';
+    src: url('../../assets/gemsbuck-01-black-2-font/Gemsbuck01Black-axn2g.ttf') format('truetype');
+  }
+
+ .hskil{
+    color:#7D8F69;
+    font-family: 'infini3', sans-serif;
+}
+p{
+    font-family: 'infini4',sans-serif;
+    color:darkolivegreen;
+
+}
+.bg2{
+    background-color:#DAE2B6;
+}
+.card{
+    background-color:#CCD6A6;
+}
+
+
+
+@media(max-width:440px) {
+    
+    .card {
+        margin-top:18px;
+    }
+    
+    
+    }
+
+    @media(max-width:649px) {
+
+        .card {
+            margin-top:30px;
+        }
+    }
